@@ -4,6 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+
+        {
+            "name": "Flutter: Attach to Device",
+            "type": "dart",
+            "request": "attach"
+        },
         {
             "name": "first_app",
             "cwd": "1-diceRoll\\first_app",
@@ -100,6 +107,26 @@
         {
             "name": "todo_app (release mode)",
             "cwd": "4-todoApp\\todo_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+         {
+            "name": "meals_app",
+            "cwd": "5-mealsApp\\meals",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "meals_app (profile mode)",
+            "cwd": "5-mealsApp\\meals",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meals_app (release mode)",
+            "cwd": "5-mealsApp\\meals",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
