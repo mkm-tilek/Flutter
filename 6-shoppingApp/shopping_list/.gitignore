@@ -1,0 +1,77 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android/Flutter build output
+**/android/app/build/
+**/android/app/outputs/
+**/android/app/intermediates/
+**/windows/flutter/ephemeral/
+**/windows/flutter/ephemeral/flutter_windows.dll.pdb
+
+# iOS
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.xcconfig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework.dSYM
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/*
+!default.xcworkspace
+
+# Web related
+**/web/generated_plugin_registrant.dart
+
+# VS Code
+#.vscode/
+
+# MacOS
+.DS_Store
+
+# Visual Studio
+**/windows/.vs/
+**/windows/x64/Release/
+**/windows/x64/Debug/
+**/windows/Release/
+**/windows/Debug/
+
+# Obfuscation
+app.*.map.json
+
+# Symbolication
+app.*.symbols
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
